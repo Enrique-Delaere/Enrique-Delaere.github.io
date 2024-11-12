@@ -1,0 +1,37 @@
+.checked {
+    position: relative;
+    padding-left: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.checked::before {
+    content: "";
+    background-image: url('../images/checked.jpg');
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.unchecked {
+    position: relative;
+    padding-left: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.unchecked::before {
+    content: "";
+    background-image: url('../images/unchecked.png');
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}

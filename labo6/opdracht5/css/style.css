@@ -1,0 +1,38 @@
+html {
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+    background-color: #8D99AE;
+    color: blue;
+}
+
+h1 {
+    font-variant: all-small-caps;
+    background-color: red;
+}
+
+a:hover {
+    border: black solid 1px;
+}
+
+.stippeltjesrand {
+    border: black dotted 1px;
+}
+
+.link {
+    position: relative;
+    padding-left: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.link::before {
+    content: "";
+    background-image: url('../images/484167.png');
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
