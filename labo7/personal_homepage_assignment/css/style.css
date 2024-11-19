@@ -1,0 +1,22 @@
+html {
+    font-family: Verdana, sans-serif;
+    background-color: lightgray;
+}
+
+.title {
+    text-align: center;
+}
+
+.section {
+    background-color: white;
+    border-radius: 1vw;
+    margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+section:hover {
+    color: white;
+    background-color: purple;
+}

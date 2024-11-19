@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    width: 300px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+caption {
+    background-color: rgb(170, 170, 200);
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+th {
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+}
+
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+.special {
+    background-color: rgb(250, 120, 120);
+}
