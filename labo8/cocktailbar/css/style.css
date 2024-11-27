@@ -1,0 +1,48 @@
+html{
+    font-family: Verdana, Helvetica, Arial sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+
+h2{
+    color: #007e7e;
+    font-size: 130%;
+}
+
+.header {
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    display: inline-block;
+    float: left;
+}
+
+.article {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.hover:hover {
+    background-color: brown;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+}
