@@ -1,11 +1,11 @@
-.container {
+main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
 
-.container .block{
+main .block{
     color: white;
     font-weight:bold;
     font-size: 4em;
@@ -32,7 +32,7 @@
 }
 
 @media screen and (max-width: 992px){
-    .container{
+    main {
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr ;
     }
@@ -47,7 +47,7 @@
 }
 
 @media screen and (max-width: 772px){
-    .container{
+    main {
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr ;
     }
