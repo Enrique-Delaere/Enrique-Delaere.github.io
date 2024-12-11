@@ -1,0 +1,26 @@
+body {
+    margin: 10px;
+}
+
+article {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article p {
+    font-size: 1.25em;
+}
+
+article img {
+    float: left;
+    margin: 0 10px 10px 0;
+    max-width: 40%;
+}
+
+article:nth-of-type(even) img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
