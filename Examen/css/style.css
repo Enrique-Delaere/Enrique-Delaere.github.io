@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, "Courier New", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #292929;
+
+    background-image: url("../images/chips_challenge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.headerh1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #292929;
+}
+
+nav {
+    margin: 0;
+    background-color: #292929;
+}
+
+.navigation {
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navigation li a{
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navigation li a:hover{
+    text-decoration: underline;
+}
+
+.section-body {
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.lijn {
+    border-bottom: 2px solid #292929;
+    margin: 0.5rem;
+}
+
+.startp {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+.block1, .block2, .block3, .block4, .block5 {
+    border: 2px dotted #ccc;
+}
+
+.block2, .block4 {
+    background-color: white;
+}
+
+.block1, .block3, .block5 {
+    background-color: #dfdfdf;
+}
+
+.row {
+    border-bottom: 1px dotted #aaa;
+}
+
+.lijn1 {
+    border-bottom: 1px dotted #aaa;
+}
+
+.rowfooter {
+    display: flex;
+    justify-content: right;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.flexbox {
+    display: flex;
+    background-color: white;
+    color: #292929;
+    border-radius: 15px;
+    width: 100%;
+    padding: 1em;
+}
+
+.flex {
+    display: flex;
+}
+
+.title {
+    font-style: italic;
+    padding-bottom: 0.3em;
+}
+
+.img {
+    height: 15px;
+    float: left;
+}
+
+.float {
+    float: left;
+    font-weight: bold;
+}
+
+.box {
+    width: 100%;
+}
+
+.footer {
+    background-color: #a7a5a5;
+    color: black;
+    padding: 0.25rem;
+    font-size: 0.8em;
+    align-items: center;
+    text-align: center;
+}
+
+.footernaam {
+    text-decoration: none;
+    color: #ce0000;
+}
+
+.footernaam:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .grid:nth-child(last) {
+        display: none;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .block3 {
+        background-color: white;
+    }
+
+    .block4 {
+        background-color: #dfdfdf;
+    }
+
+    .block5 {
+        display: none;
+    }
+}
+
