@@ -2,15 +2,15 @@ const setup = () => {
     let input = document.getElementById('input');
     let btnConsole = document.getElementById('btnConsole');
 
-    // functie bij die toConsole want anders staat hij direct bij setup
-    btnConsole.addEventListener('click',() => aanroepenConsole(input));
+    btnConsole.addEventListener('click', () => aanroepenConsole(input));
 }
 
 const aanroepenConsole = (input) => {
     let text = input.value;
-    console.log("before: " + text);
-    text = text.replaceAll("de", "het");
-    console.log("after: " + text);
-};
+    console.log(text);
 
+    let newText = text.split("de").join("het");
+
+    console.log(newText);
+};
 window.addEventListener("load", setup);
