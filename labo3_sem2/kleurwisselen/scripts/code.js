@@ -7,4 +7,4 @@ const setup = () => {
 
 
 }
-window.addEventListener("load", setup);
+window.addEventListener("   load", setup);
